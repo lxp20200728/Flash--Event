@@ -1,0 +1,8 @@
+作业要求：
+根据要求补充代码，以达到“作业最终效果.swf”中的“信纸查看”功能。主要要求有：
+a.在BarController类,监听鼠标事件 MouseEvent.CLICK,实现向前翻页，向后翻页和选择小图加载大图等功能
+b.使用 类 LoadPageEventDispatcher 发送事件 LoadPageEvent.LOAD_PAGE 通知 类ViewController加载大图
+c.在类ViewController中监听事件 LoadPageEvent.LOAD_PAGE，根据Id加载大图 （以提供 loadPage方法）
+
+请独立完成作业，如果有需求可以修改类和添加类。
+目的：了解掌握事件机制的使用和对异步机制的理解。
